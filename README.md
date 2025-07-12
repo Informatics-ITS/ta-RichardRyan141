@@ -15,59 +15,34 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
 [![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
 *Klik gambar di atas untuk menonton demo*
 
----
-
-*Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.*
-
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
 ### Prasyarat  
-- Daftar dependensi (contoh):
-  - Python 3.10+
-  - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
+- Python 3.9.13
 
 ### Langkah-langkah  
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   git clone https://github.com/Informatics-ITS/ta-RichardRyan141.git
    ```
 2. **Instalasi Dependensi**
    ```bash
    cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
+   pip install -r requirements.txt
    ```
-3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
-4. **Jalankan Aplikasi**
-   ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
-   ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
+3. **Download dataset**
+- Registrasi dan download data dari ADAM Challenge (adam.isi.uu.nl)
+4. **Jalankan Kode**
+- Buka resizer.ipynb, ubah variabel yang ditunjukkan (jika perlu) dan jalankan code
+- Download acpcdetect dari NITRC (https://www.nitrc.org/projects/art) kemudian jalankan untuk setiap directory kasus data
+- Buka reorient.ipynb, ubah variabel yang ditunjukkan (jika perlu) dan jalankan code
+- Buka generate-csv.ipynb, ubah variabel yang ditunjukkan (jika perlu) dan jalankan code
+- Buka train.ipynb, ubah variabel yang ditunjukkan (jika perlu) dan jalankan code
+- Buka validate.ipynb, ubah variabel yang ditunjukkan (jika perlu) dan jalankan code
 
 ---
 
-## 📚 Dokumentasi Tambahan
-
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
-
----
-
-## ✅ Validasi
-
-Pastikan proyek memenuhi kriteria berikut sebelum submit:
-- Source code dapat di-build/run tanpa error
-- Video demo jelas menampilkan fitur utama
-- README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
-
----
+## 📚 Dokumentasi Tambahan (TBA)
 
 ## ⁉️ Pertanyaan?
 
