@@ -1,10 +1,11 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: Richard Ryan  
+**NRP**: 5025211141  
+**Judul TA**: Pengaruh Reorientasi Anterior Commisure – Posterior Commisure dan Tuning Hyperparameter untuk Kasus Segmentasi 3D Aneurisma di Otak  
+**Dosen Pembimbing**: Prof. Drs. Ec. Ir. Riyanarto Sarno, M.Sc., Ph.D.  
+**Dosen Ko-pembimbing**: Dr. Kelly Rossa Sungkono
+
 
 ---
 
@@ -71,5 +72,5 @@ Pastikan proyek memenuhi kriteria berikut sebelum submit:
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+- Penulis: richard.ryan.rr0@gmail.com
+- Pembimbing Utama: riyanarto@if.its.ac.id
