@@ -30,7 +30,7 @@
    pip install -r requirements.txt
    ```
 3. **Download dataset**
-- Registrasi dan download data dari ADAM Challenge (adam.isi.uu.nl)
+- Registrasi dan download data dari ADAM Challenge (https://www.adam.isi.uu.nl)
 4. **Jalankan Kode**
 - Buka resizer.ipynb, ubah variabel yang ditunjukkan (jika perlu) dan jalankan code
 - Download acpcdetect dari NITRC (https://www.nitrc.org/projects/art) kemudian jalankan untuk setiap directory kasus data
