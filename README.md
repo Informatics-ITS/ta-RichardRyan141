@@ -10,9 +10,8 @@
 ---
 
 ## 📺 Demo Aplikasi  
-Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
 
-[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
+[![Demo Aplikasi](img/pic_vid.jpg)](https://youtu.be/ZpgLPlfG3Do)  
 *Klik gambar di atas untuk menonton demo*
 
 ## 🛠 Panduan Instalasi & Menjalankan Software  
@@ -41,8 +40,6 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
 - Buka validate.ipynb, ubah variabel yang ditunjukkan (jika perlu) dan jalankan code
 
 ---
-
-## 📚 Dokumentasi Tambahan (TBA)
 
 ## ⁉️ Pertanyaan?
 
