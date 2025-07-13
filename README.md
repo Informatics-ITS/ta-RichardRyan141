@@ -4,7 +4,7 @@
 **NRP**: 5025211141  
 **Judul TA**: Pengaruh Reorientasi Anterior Commisure – Posterior Commisure dan Tuning Hyperparameter untuk Kasus Segmentasi 3D Aneurisma di Otak  
 **Dosen Pembimbing**: Prof. Drs. Ec. Ir. Riyanarto Sarno, M.Sc., Ph.D.  
-**Dosen Ko-pembimbing**: Dr. Kelly Rossa Sungkono
+**Dosen Ko-pembimbing**: Dr. Kelly Rossa Sungkono, S.Kom., M.Kom.
 
 
 ---
