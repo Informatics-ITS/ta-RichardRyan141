@@ -30,10 +30,42 @@
    pip install -r requirements.txt
    ```
 3. **Download dataset**
-- Registrasi dan download data dari ADAM Challenge (https://www.adam.isi.uu.nl)
+- Registrasi dan download data dari ADAM Challenge (https://www.adam.isi.uu.nl)  
+### Format data awal:
+resized_data/  
+|-- 10001/  
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- orig/  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- reg_struct_to_TOF.txt  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ScanParams_struct.json  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ScanParams_TOF.json  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- struct.nii.gz  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- struct_aligned.nii.gz  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- TOF.nii.gz  
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- pre/  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- struct.nii.gz  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- struct_aligned.nii.gz  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- TOF.nii.gz  
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- aneurysms.nii.gz  
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- location.txt  
+|-- 10002/  
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- orig/  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- reg_struct_to_TOF.txt  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ScanParams_struct.json  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ScanParams_TOF.json  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- struct.nii.gz  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- struct_aligned.nii.gz  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- TOF.nii.gz  
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- pre/  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- struct.nii.gz  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- struct_aligned.nii.gz  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- TOF.nii.gz  
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- aneurysms.nii.gz  
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- location.txt  
+|-- 10003/
+...  
 4. **Jalankan Kode**
 - Buka resizer.ipynb, ubah variabel yang ditunjukkan (jika perlu) dan jalankan code
-- Download acpcdetect dari NITRC (https://www.nitrc.org/projects/art) kemudian jalankan untuk setiap directory kasus data
+- Download acpcdetect dari NITRC (https://www.nitrc.org/projects/art) kemudian jalankan untuk setiap directory kasus data (Note: Diperlukan WSL)
 - Buka reorient.ipynb, ubah variabel yang ditunjukkan (jika perlu) dan jalankan code
 - Buka generate-csv.ipynb, ubah variabel yang ditunjukkan (jika perlu) dan jalankan code
 - Buka train.ipynb, ubah variabel yang ditunjukkan (jika perlu) dan jalankan code
